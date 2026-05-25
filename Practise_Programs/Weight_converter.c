@@ -21,10 +21,10 @@ int main(){
         printf("%.4f kilograms is %.4f pounds: ",kilograms,pounds);
     }
     else if (choice == 2){
-        printf("Enter the weight in pounds\n: ");
+        printf("Enter the weight in pounds\n ");
         scanf("%f",&pounds);
         kilograms = pounds /2.20462;
-        printf("%.4f pounds is %.4f kilograms\n: ",pounds,kilograms);
+        printf("%.4f pounds is %.4f kilograms\n ",pounds,kilograms);
 
     }
     else{
