@@ -40,9 +40,17 @@ int main(){
             scanf("%f",&x);
             printf("enter the second number: ");
             scanf("%f",&y);
-            total = x/y;
-            printf("%.2f/%.2f= %.2f",x,y,total);
-            break;            
+            if(y==0){
+                printf("invalid\n");
+            }
+            else{
+                total = x/y;
+                printf("%.2f/%.2f= %.2f",x,y,total);
+            }
+            break;  
+        default:
+            printf("Enter suitable operator\n");
+
     }
 
     return 0;
